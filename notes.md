@@ -28,3 +28,15 @@
 
 // GENERIC STUFF
   --box-shadow: 0 4px 20px -5px rgba(66,133,244,.4);
+
+CONTAINER max-width
+  -1120px
+
+
+Margins
+  -100px
+  -70px
+  -35px
+  -30px
+  -20px
+  -15px
