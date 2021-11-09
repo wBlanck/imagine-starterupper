@@ -61,6 +61,7 @@ img {
 }
 
 /* header */
+
 .header {
   padding: 20px 0;
 }
@@ -100,6 +101,7 @@ img {
 }
 .hero__content {
   margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .hero__content h1 {
@@ -111,6 +113,33 @@ img {
 }
 .hero__content p {
   font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+
+/* FEATURES SECTION */
+
+
+.features__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
+.features__content .headings {
+  text-align: center;
+  max-width: 50%;
+}
+.features__content h2 {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight: 900;
+  color: var(--clr-black);
+  margin-bottom: 15px;
+}
+.features__content p {
+  font-size: 1.25rem;
   line-height: 1.7;
   margin-bottom: 50px;
 }
