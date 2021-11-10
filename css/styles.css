@@ -29,6 +29,12 @@ a {
   text-decoration: none;
   color: var(--clr-black);
 }
+h2 {
+  font-size: 1.875rem;
+  color: var(--clr-black);
+  line-height: 1.2;
+}
+
 .container {
   max-width: 690px;
   margin: 0 auto;
@@ -37,7 +43,12 @@ a {
 @media (min-width:990px) {
   .container {
     max-width: 1120px;
-    
+    padding: 0 1%;
+  }
+}
+@media (min-width:1200px) {
+  .container {
+    padding: 0;
   }
 }
 .btn {
@@ -51,6 +62,16 @@ a {
   display: inline-block;
   background-color: var(--clr-blue);
   color: var(--clr-white-200);
+}
+.btn-light {
+  border: none;
+  background-color: transparent;
+  color: var(--clr-blue-700);
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: 'Nunito', sans-serif;
+  line-height: 1.7;
+  cursor: pointer;
 }
 
 /* HEADER */
@@ -168,6 +189,86 @@ a {
     top: 60%;
     transform: translateY(-50%) translateX(30%);
     margin-bottom: 0;
-
   }
+}
+
+/* FEATURES */
+.features {
+  text-align: center;
+}
+.features .container {
+
+}
+.features .section-desc {
+  margin: 0 auto;
+  width: 60%;
+  margin-bottom: 100px;
+}
+.section-desc__title {
+  margin-bottom: 10px;
+}
+.section-desc__subtitle {
+  font-size: 1.25rem;
+}
+.feature-cards {
+  display: grid;
+  gap: 90px;
+}
+.feature-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: var(--clr-white-200);
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+.feature-card:hover {
+  background-color: var(--clr-blue);
+  color: var(--clr-white);
+}
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+.feature-card:hover .feature-card__title {
+  color: var(--clr-white);
+}
+.feature-card:hover .feature-card__icon {
+  background-color: var(--clr-white);
+}
+.feature-card:hover .feature-card__icon i {
+  color: var(--clr-blue);
+}
+.feature-card:hover .btn-light {
+  color: var(--clr-white);
+}
+.feature-card__icon {
+  position: absolute;
+  top: -38px;
+  background-color: var(--clr-blue);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 200ms ease-in-out;
+}
+.feature-card__icon i{
+  font-size: 1.5rem;
+  color: var(--clr-white);
+}
+.feature-card__title {
+  font-size: 1.125rem;
+  color: var(--clr-black);
+  font-weight: 400;
+  margin-top: 40px;
+}
+.feature-card__desc {
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 25px;
 }
