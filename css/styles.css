@@ -68,7 +68,7 @@ a {
 }
 /* NAV */
 .nav__list {
-  display: flex;
+  display: none;
 }
 .nav__item {
 
@@ -83,7 +83,28 @@ a {
 .nav__link i {
   font-size: 0.6rem;
 }
-
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.hamburger span{
+  height: 3px;
+  width: 22px;
+  background-color: var(--clr-black);
+  display: block;
+}
+.bar + .bar {
+  margin-top: 3px;
+}
+@media (min-width: 900px) {
+  .hamburger {
+    display: none;
+  }
+  .nav__list {
+    display: flex;
+  }
+}
 /* HERO SECTION */
 .hero {
   height: 100vh;
