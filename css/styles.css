@@ -368,3 +368,39 @@ img {
     margin-top: 100px;
   }
 } 
+
+/* ABOUT US SECTION */
+.about-us {
+  background-color: #f6f6f6;
+}
+.about-us__content {
+
+}
+.about-us__bg {
+
+}
+.goals {
+
+}
+.goals__title {
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin-bottom: 25px;
+  color: var(--clr-black);
+}
+.goals__desc {
+  margin-bottom: 20px;
+}
+.goals__list {
+  margin-bottom: 45px;
+}
+.goals__item {
+
+}
+.goals__item + .goals__item {
+  margin-top: 10px;
+}
+.goals__item i {
+  color: #8bc34a;
+  margin-right: 10px;
+}
