@@ -4,54 +4,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="css/styles.css">
-  <title>Imagine Starter</title>
+  <title>Imagine!</title>
 </head>
 <body>
-  <!-- HEADER -->
   <header class="header">
     <div class="container">
       <a href="#" class="logo">imagine<span>.</span></a>
-      <div class="hamburger">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-
-      </div>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Home</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Features</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About Us <i class="fas fa-chevron-down"></i></a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Testimonials</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Blog</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
-  <!-- HEADER ENDS -->
-  <!-- hero section -->
   <section class="hero">
     <div class="container">
-      <img src="imgs/investing.svg" alt="">
       <div class="hero__content">
-        <div class="headings">
-          <h1>Make Your Business More Profitable</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
-        </div>
-        <button class="btn btn--primary">Get Started</button>
+        <h1 class="main-heading">Make Your Business More Profitable</h1>
+        <p class="hero__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
+        <button class="btn">Get Started</button>
       </div>
     </div>
-  </section>
-  <!-- hero section end-->
-  <section class="features">
-    <div class="container">
-      <div class="features__content">
-        <div class="headings">
-          <h2>Imagine Features</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
-        </div>
-        <div class="features-list">
-          <div class="feature">
-            <div class="icon"></div>
-            <h3 class="title">Marketing Consulting</h3>
-            <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-            <a href="#" class="btn-learn">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <img src="/imgs/investing.svg" alt="" class="hero__img">
   </section>
 </body>
 </html>
