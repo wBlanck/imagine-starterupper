@@ -723,3 +723,31 @@ form {
   }
 }
 
+/* FOOTER */
+.footer {
+  background-color: var(--clr-white);
+  padding: 50px;
+}
+.footer .container {
+  padding: 0;
+}
+.socials {
+  display: flex;
+}
+.social {
+  color: var(--clr-blue);
+  padding: 10px;
+  transition: color 200ms ease-in-out;
+}
+.social:hover {
+  color: var(--clr-blue-700);
+  
+}
+.social + .social {
+  margin-left: 25px;
+}
+.copyright {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 1rem;
+}
