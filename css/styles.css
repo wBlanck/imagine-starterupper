@@ -429,6 +429,7 @@ img {
 .team {
 
 }
+.team .container {}
 .team .section-desc {
   text-align: center;
   width: 60%;
@@ -442,7 +443,8 @@ img {
 
 }
 .team-cards {
-
+  margin: 0 auto;
+  width: clamp(250px, 100%, 525px);
 }
 .team-card {
   margin-bottom: 50px;
@@ -457,6 +459,7 @@ img {
 }
 .team-card__img {
   display: block;
+  width: 100%;
 }
 .overlay {
   position: absolute;
@@ -499,4 +502,19 @@ img {
 }
 .team-card__desc {
 
+}
+@media (min-width: 768px) {
+  .team-cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
+    gap: 25px;
+    width: clamp(250px, 100%, 720px);
+  }
+}
+@media (min-width: 990px) {
+  .team-cards {
+    grid-template-columns: repeat(3,1fr );
+    gap: 25px;
+    width: clamp(250px, 100%, 80vw);
+  }
 }
