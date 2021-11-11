@@ -585,7 +585,7 @@ section {
   text-align: center;
 }
 .blog .container {
-  padding: 0;
+  
 }
 .blog__posts {
   display: grid;
@@ -661,7 +661,7 @@ section {
   background-color: var(--clr-white);
   color: var(--clr-black);
   padding: 40px;
-  width: clamp(345px, 100%, 690px);
+  width: clamp(345px, 95%, 690px);
 }
 
 .contact .section-desc__title {
@@ -672,7 +672,7 @@ section {
   margin-bottom: 50px;
 }
 form {
-  display: grid;
+  
   
 }
 .form__title {
@@ -715,6 +715,7 @@ form {
 
 @media (min-width: 768px) {
   form {
+    display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 20px;
   }
