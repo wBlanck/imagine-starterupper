@@ -518,3 +518,50 @@ img {
     width: clamp(250px, 100%, 80vw);
   }
 }
+
+/* TESTIMONIALS */
+.testimonials {
+  text-align: center;
+  background-color: #f6f6f6;
+  padding: 50px 0;
+}
+.slider {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.slider__img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  margin-bottom: 30px;
+}
+.slider__quote {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.slider__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--clr-black);
+  margin-bottom: 25px;
+}
+.dots {
+  display: flex;
+}
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color:#dee2e6;
+}
+.dot + .dot {
+  margin-left: 10px;
+}
+.active {
+  background-color: var(--clr-blue);
+}
