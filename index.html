@@ -1,538 +1,662 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="css/styles.css">
-  <title>Imagine!</title>
-</head>
-<body>
-  <!-- HEADER/NAV SECTION -->
-  <header class="header" id="top-header">
-    <div class="container">
-      <a href="#" class="logo">imagine<span>.</span></a>
-      <nav class="nav">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#" class="nav__link">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Features</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">About Us <i class="fas fa-chevron-down"></i></a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Testimonials</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Blog</a>
-          </li>
-          <li class="nav__item">
-            <a href="#" class="nav__link">Contact</a>
-          </li>
-        </ul>
-        <div class="hamburger">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-
-        </div>
-      </nav>
-    </div>
-  </header>
-  <div class="mobile-nav">
-    <div class="close">
-      <i class="fas fa-times"></i>
-    </div>
-    <ul class="mobile-nav__list">
-      <li class="mobile-nav__item">
-        <a href="#" class="mobile-nav__link">Home</a>
-      </li>
-      <li class="mobile-nav__item">
-        <a href="#" class="mobile-nav__link">Features</a>
-      </li>
-      <li class="mobile-nav__item">
-        <a href="#" class="mobile-nav__link">About Us <i class="fas fa-chevron-down"></i></a>
-      </li>
-      <li class="mobile-nav__item">
-        <a href="#" class="mobile-nav__link">Testimonials</a>
-      </li>
-      <li class="mobile-nav__item">
-        <a href="#" class="mobile-nav__link">Blog</a>
-      </li>
-      <li class="mobile-nav__item">
-        <a href="#" class="mobile-nav__link">Contact</a>
-      </li>
-    </ul>
-  </div>
-  <!-- HERO SECTION -->
-
-  <section class="hero">
-    
-    <div class="container">
-      <img src="./imgs/investing.svg" alt="" class="hero__img">
-      <div class="hero__content">
-        <h1 class="main-heading">Make Your Business More Profitable</h1>
-        <p class="hero__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam assumenda ea quo cupiditate facere deleniti fuga officia.</p>
-        <button class="btn">Get Started</button>
-      </div>
-    </div>
-    
-  </section>
-
-  <!-- FEATURES -->
-  <section class="features">
-    <div class="container">
-      <div class="section-desc">
-        <h2 class="section-desc__title">Imagine Features</h2>
-        <p class="section-desc__subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
-      </div>
-      <div class="feature-cards">
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <i class="fas fa-sync-alt"></i>
-          </div>
-          <h3 class="feature-card__title">Marketing Consulting</h3>
-          <p class="feature-card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-          <button class="btn-light">Learn More</button>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <i class="fas fa-home"></i>
-          </div>
-          <h3 class="feature-card__title">Market Analysis</h3>
-          <p class="feature-card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-          <button class="btn-light">Learn More</button>
-        </div>
-        
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <i class="fas fa-shopping-cart"></i>
-          </div>
-          <h3 class="feature-card__title">Easy Purchase</h3>
-          <p class="feature-card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-          <button class="btn-light">Learn More</button>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <i class="fas fa-sync-alt"></i>
-          </div>
-          <h3 class="feature-card__title">Free Updates</h3>
-          <p class="feature-card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-          <button class="btn-light">Learn More</button>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <i class="far fa-smile"></i>
-          </div>
-          <h3 class="feature-card__title">100% Satistified</h3>
-          <p class="feature-card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-          <button class="btn-light">Learn More</button>
-        </div>
-
-        <div class="feature-card">
-          <div class="feature-card__icon">
-            <i class="fas fa-sync-alt"></i>
-          </div>
-          <h3 class="feature-card__title">Easy Plugin</h3>
-          <p class="feature-card__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quis molestiae vitae eligendi at.</p>
-          <button class="btn-light">Learn More</button>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- FEEDBACK SECTION -->
-  
-  <section class="feedback">
-    <div class="container">
-      <div class="feedback__content">
-        <div class="feedback-container">
-          <img class="feedback__bg" src="./imgs/giftcard.svg" alt="giftcard">
-          <div class="section-desc">
-            <h2 class="section-desc__title">Communicate and gather feedback</h2>
-            <p class="section-desc__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.</p>
-            <div class="feedback-card">
-              <div class="feedback-card__top-part">
-                <img class="feedback-card__img" src="./imgs/nicolas.webp" alt="person 1">
-                <div class="feedback-card__details">
-                  <h4 class="feedback-card__name">Grey Simpson</h4>
-                  <p class="feedback-card__role">Co-Founder, XYZ Inc.</p>
-                </div>
-              </div>
-              <div class="feedback-card__bottom-part">
-                <p class="feedback-card__quote">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?”</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <div class="feedback-container">
-          <img class="feedback__bg" src="./imgs/metrics.svg" alt="giftcard">
-          <div class="section-desc right">
-            <h2 class="section-desc__title">Communicate and gather feedback</h2>
-            <p class="section-desc__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem neque nisi architecto autem molestias corrupti officia veniam.</p>
-            <div class="feedback-card">
-              <div class="feedback-card__top-part">
-                <img class="feedback-card__img" src="./imgs/emely.webp" alt="person 1">
-                <div class="feedback-card__details">
-                  <h4 class="feedback-card__name">Kimberly Gush</h4>
-                  <p class="feedback-card__role">Co-Founder, XYZ Inc.</p>
-                </div>
-              </div>
-              <div class="feedback-card__bottom-part">
-                <p class="feedback-card__quote">“Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus vitae ipsa asperiores inventore aperiam iure?”</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </section>
-  
-  <!-- ABOUT US SECTION -->
-
-  <section class="about-us">
-    <div class="container">
-      <h2 class="section-desc__title">About Us</h2>
-      <div class="about-us__content">
-        <img src="./imgs/bookmarks.svg" alt="" class="about-us__bg">
-        <div class="goals">
-          <h3 class="goals__title">Our Mission</h3>
-          <p class="goals__desc">Eos cumque optio dolores excepturi rerum temporibus magni recusandae eveniet, totam omnis consectetur maxime quibusdam expedita dolorem dolor nobis dicta labore quaerat esse magnam unde, aperiam delectus! At maiores, itaque.</p>
-          <ul class="goals__list">
-            <li class="goals__item">
-              <i class="fas fa-check"></i>
-              Laborum enim quasi at modi
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Imagine!</title>
+  </head>
+  <body>
+    <!-- HEADER/NAV SECTION -->
+    <header class="header" id="top-header">
+      <div class="container">
+        <a href="#" class="logo">imagine<span>.</span></a>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#" class="nav__link">Home</a>
             </li>
-            <li class="goals__item">
-              <i class="fas fa-check"></i>
-              Ad at tempore
+            <li class="nav__item">
+              <a href="#" class="nav__link">Features</a>
             </li>
-            <li class="goals__item">
-              <i class="fas fa-check"></i>
-              Labore quaerat esse
+            <li class="nav__item">
+              <a href="#" class="nav__link"
+                >About Us <i class="fas fa-chevron-down"></i
+              ></a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Testimonials</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Blog</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">Contact</a>
             </li>
           </ul>
-          <button class="btn">Learn More</button>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <div class="mobile-nav">
+      <div class="close">
+        <i class="fas fa-times"></i>
+      </div>
+      <ul class="mobile-nav__list">
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Home</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Features</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link"
+            >About Us <i class="fas fa-chevron-down"></i
+          ></a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Testimonials</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Blog</a>
+        </li>
+        <li class="mobile-nav__item">
+          <a href="#" class="mobile-nav__link">Contact</a>
+        </li>
+      </ul>
+    </div>
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+      <div class="container">
+        <img src="./imgs/investing.svg" alt="" class="hero__img" />
+        <div class="hero__content">
+          <h1 class="main-heading">Make Your Business More Profitable</h1>
+          <p class="hero__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            assumenda ea quo cupiditate facere deleniti fuga officia.
+          </p>
+          <button class="btn">Get Started</button>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- TEAM SECTION -->
-  
-  <section class="team">
-
-    <div class="container">
-
-      <div class="section-desc">
-        <h2 class="section-desc__title">Our Team</h2>
-        <p class="section-desc__subtitle">orem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos quaerat sapiente nam, id vero.</p>
-      </div>
-
-      <div class="team-cards">
-
-        <div class="team-card">
-          <div class="team-card__img-container">
-            <img class="team-card__img" src="./imgs/cloe.webp" alt="">
-            <div class="overlay">
-              <ul class="socials">
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="team-card__details">
-            <p class="team-card__name">Cloe Marena</p>
-            <p class="team-card__role">president</p>
-            <p class="team-card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
-          </div>
+    <!-- FEATURES -->
+    <section class="features">
+      <div class="container">
+        <div class="section-desc">
+          <h2 class="section-desc__title">Imagine Features</h2>
+          <p class="section-desc__subtitle">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos
+            quaerat sapiente nam, id vero.
+          </p>
         </div>
-        <div class="team-card">
-          <div class="team-card__img-container">
-            <img class="team-card__img" src="./imgs/john.webp" alt="">
-            <div class="overlay">
-              <ul class="socials">
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
+        <div class="feature-cards">
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <i class="fas fa-sync-alt"></i>
             </div>
+            <h3 class="feature-card__title">Marketing Consulting</h3>
+            <p class="feature-card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </p>
+            <button class="btn-light">Learn More</button>
           </div>
-          <div class="team-card__details">
-            <p class="team-card__name">John Rooster</p>
-            <p class="team-card__role">Marketing</p>
-            <p class="team-card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-card__img-container">
-            <img class="team-card__img" src="./imgs/will.webp" alt="">
-            <div class="overlay">
-              <ul class="socials">
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="team-card__details">
-            <p class="team-card__name">Will Turner</p>
-            <p class="team-card__role">Marketing</p>
-            <p class="team-card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-card__img-container">
-            <img class="team-card__img" src="./imgs/nicolas.webp" alt="">
-            <div class="overlay">
-              <ul class="socials">
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="team-card__details">
-            <p class="team-card__name">Nicolas Steiner</p>
-            <p class="team-card__role">financing</p>
-            <p class="team-card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-card__img-container">
-            <img class="team-card__img" src="./imgs/george.webp" alt="">
-            <div class="overlay">
-              <ul class="socials">
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="team-card__details">
-            <p class="team-card__name">George Brook</p>
-            <p class="team-card__role">Founder</p>
-            <p class="team-card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
-          </div>
-        </div>
-        <div class="team-card">
-          <div class="team-card__img-container">
-            <img class="team-card__img" src="./imgs/emely.webp" alt="">
-            <div class="overlay">
-              <ul class="socials">
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-facebook-f"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="socials__item">
-                  <a href="#" class="socials__link">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="team-card__details">
-            <p class="team-card__name">Emely Hopson</p>
-            <p class="team-card__role">Marketing</p>
-            <p class="team-card__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum excepturi corporis qui doloribus perspiciatis ipsa modi accusantium repellat.</p>
-          </div>
-        </div>      
-      </div>
-    </div>
-  </section>
 
-  <!-- TESTIMONIALS -->
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <i class="fas fa-home"></i>
+            </div>
+            <h3 class="feature-card__title">Market Analysis</h3>
+            <p class="feature-card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </p>
+            <button class="btn-light">Learn More</button>
+          </div>
 
-  <section class="testimonials">
-    <div class="container">
-      <h2 class="section-desc__title">Testimonials</h2>
-      <div class="slider">
-        <img src="./imgs/george.webp" alt="" class="slider__img">
-        <p class="slider__quote">“Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae explicabo animi minima fuga beatae illum eligendi incidunt consequatur. Amet dolores excepturi earum unde iusto.”</p>
-        <p class="slider__name">John Smith</p>
-        <div class="dots">
-          <div class="dot active"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
-          <div class="dot"></div>
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <i class="fas fa-shopping-cart"></i>
+            </div>
+            <h3 class="feature-card__title">Easy Purchase</h3>
+            <p class="feature-card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </p>
+            <button class="btn-light">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h3 class="feature-card__title">Free Updates</h3>
+            <p class="feature-card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </p>
+            <button class="btn-light">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <i class="far fa-smile"></i>
+            </div>
+            <h3 class="feature-card__title">100% Satistified</h3>
+            <p class="feature-card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </p>
+            <button class="btn-light">Learn More</button>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">
+              <i class="fas fa-sync-alt"></i>
+            </div>
+            <h3 class="feature-card__title">Easy Plugin</h3>
+            <p class="feature-card__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perferendis quis molestiae vitae eligendi at.
+            </p>
+            <button class="btn-light">Learn More</button>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
+    <!-- FEEDBACK SECTION -->
 
- <!-- BLOG SECTION -->
- 
-  <section class="blog">
-    <div class="container">
-      <h2 class="section-desc__title">Blog Posts</h2>
-      <div class="blog__posts">
-        
-        <div class="blog__post">
-          <img src="./imgs/blog1.webp" alt="" class="blog__post__img">
-          <a href="#" class="blog__post__title">Make Your Business More Profitable</a>
-          <div class="blog__post__post-info">Ham Brook <span>•</span> 11 Nov, 2021 <span>•</span> <a href="#">News</a></div>
-          <p class="blog__post__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-          <a href="#" class="blog__post__read-more">Continue Reading...</a>
+    <section class="feedback">
+      <div class="container">
+        <div class="feedback__content">
+          <div class="feedback-container">
+            <img
+              class="feedback__bg"
+              src="./imgs/giftcard.svg"
+              alt="giftcard"
+            />
+            <div class="section-desc">
+              <h2 class="section-desc__title">
+                Communicate and gather feedback
+              </h2>
+              <p class="section-desc__subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem neque nisi architecto autem molestias corrupti
+                officia veniam.
+              </p>
+              <div class="feedback-card">
+                <div class="feedback-card__top-part">
+                  <img
+                    class="feedback-card__img"
+                    src="./imgs/nicolas.webp"
+                    alt="person 1"
+                  />
+                  <div class="feedback-card__details">
+                    <h4 class="feedback-card__name">Grey Simpson</h4>
+                    <p class="feedback-card__role">Co-Founder, XYZ Inc.</p>
+                  </div>
+                </div>
+                <div class="feedback-card__bottom-part">
+                  <p class="feedback-card__quote">
+                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus vitae ipsa asperiores inventore aperiam iure?”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="feedback-container">
+            <img class="feedback__bg" src="./imgs/metrics.svg" alt="giftcard" />
+            <div class="section-desc right">
+              <h2 class="section-desc__title">
+                Communicate and gather feedback
+              </h2>
+              <p class="section-desc__subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem neque nisi architecto autem molestias corrupti
+                officia veniam.
+              </p>
+              <div class="feedback-card">
+                <div class="feedback-card__top-part">
+                  <img
+                    class="feedback-card__img"
+                    src="./imgs/emely.webp"
+                    alt="person 1"
+                  />
+                  <div class="feedback-card__details">
+                    <h4 class="feedback-card__name">Kimberly Gush</h4>
+                    <p class="feedback-card__role">Co-Founder, XYZ Inc.</p>
+                  </div>
+                </div>
+                <div class="feedback-card__bottom-part">
+                  <p class="feedback-card__quote">
+                    “Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Ducimus vitae ipsa asperiores inventore aperiam iure?”
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div class="blog__post">
-          <img src="./imgs/blog2.webp" alt="" class="blog__post__img">
-          <a href="#" class="blog__post__title">Make Your Business More Profitable</a>
-          <div class="blog__post__post-info">Ham Brook <span>•</span> 11 Nov, 2021 <span>•</span> <a href="#">News</a></div>
-          <p class="blog__post__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-          <a href="#" class="blog__post__read-more">Continue Reading...</a>
-        </div>
-
-        <div class="blog__post">
-          <img src="./imgs/blog3.webp" alt="" class="blog__post__img">
-          <a href="#" class="blog__post__title">Make Your Business More Profitable</a>
-          <div class="blog__post__post-info">Ham Brook <span>•</span> 11 Nov, 2021 <span>•</span> <a href="#">News</a></div>
-          <p class="blog__post__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eligendi nobis ea maiores sapiente veritatis reprehenderit suscipit quaerat rerum voluptatibus a eius.</p>
-          <a href="#" class="blog__post__read-more">Continue Reading...</a>
-        </div>
-
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CONTACT SECTION -->
-  
-  <section class="contact">
-    <h2 class="section-desc__title">Contact Us</h2>
-    <div class="container">
-      
-      <form action="#">
-        <h2 class="form__title">Contact Form</h2>
-        <div class="form__group">
-          <label class="label" for="fname">First Name</label>
-          <input id="fname" type="text">
-        </div>
-        <div class="form__group">
-          <label class="label" for="lname">Last Name</label>
-          <input id="lname" type="text">
-        </div>
-        <div class="form__group email">
-          <label class="label" for="email">Email</label>
-          <input id="email" type="email">
-        </div>
-        <div class="form__group subject">
-          <label class="label" for="subject">Subject</label>
-          <input id="subject" type="subject">
-        </div>
-        <div class="form__group message">
-          <label class="label" for="message">Message</label>
-          <textarea name="" id="message" cols="30" rows="7" placeholder="Leave your message here..."></textarea>
-        </div>
-        
-      </form>
-      <button class="btn">Send Message</button>
-    </div>
-  </section>
+    <!-- ABOUT US SECTION -->
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="socials">
-        <a href="#" class="social">
-          <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#" class="social">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a href="#" class="social">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" class="social">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-        <a href="#" class="social">
-          <i class="fab fa-pinterest-p"></i>
-        </a>
+    <section class="about-us">
+      <div class="container">
+        <h2 class="section-desc__title">About Us</h2>
+        <div class="about-us__content">
+          <img src="./imgs/bookmarks.svg" alt="" class="about-us__bg" />
+          <div class="goals">
+            <h3 class="goals__title">Our Mission</h3>
+            <p class="goals__desc">
+              Eos cumque optio dolores excepturi rerum temporibus magni
+              recusandae eveniet, totam omnis consectetur maxime quibusdam
+              expedita dolorem dolor nobis dicta labore quaerat esse magnam
+              unde, aperiam delectus! At maiores, itaque.
+            </p>
+            <ul class="goals__list">
+              <li class="goals__item">
+                <i class="fas fa-check"></i>
+                Laborum enim quasi at modi
+              </li>
+              <li class="goals__item">
+                <i class="fas fa-check"></i>
+                Ad at tempore
+              </li>
+              <li class="goals__item">
+                <i class="fas fa-check"></i>
+                Labore quaerat esse
+              </li>
+            </ul>
+            <button class="btn">Learn More</button>
+          </div>
+        </div>
       </div>
-      <p class="copyright">Copyright ©2021 All rights reserved | This template is made with by Colorlib</p>
-    </div>
-  </footer>
-  <script src="app.js"></script>
-</body>
+    </section>
+
+    <!-- TEAM SECTION -->
+
+    <section class="team">
+      <div class="container">
+        <div class="section-desc">
+          <h2 class="section-desc__title">Our Team</h2>
+          <p class="section-desc__subtitle">
+            orem ipsum dolor sit amet, consectetur adipisicing elit. Fuga quos
+            quaerat sapiente nam, id vero.
+          </p>
+        </div>
+
+        <div class="team-cards">
+          <div class="team-card">
+            <div class="team-card__img-container">
+              <img class="team-card__img" src="./imgs/cloe.webp" alt="" />
+              <div class="overlay">
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card__details">
+              <p class="team-card__name">Cloe Marena</p>
+              <p class="team-card__role">president</p>
+              <p class="team-card__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum excepturi corporis qui doloribus perspiciatis ipsa
+                modi accusantium repellat.
+              </p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card__img-container">
+              <img class="team-card__img" src="./imgs/john.webp" alt="" />
+              <div class="overlay">
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card__details">
+              <p class="team-card__name">John Rooster</p>
+              <p class="team-card__role">Marketing</p>
+              <p class="team-card__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum excepturi corporis qui doloribus perspiciatis ipsa
+                modi accusantium repellat.
+              </p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card__img-container">
+              <img class="team-card__img" src="./imgs/will.webp" alt="" />
+              <div class="overlay">
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card__details">
+              <p class="team-card__name">Will Turner</p>
+              <p class="team-card__role">Marketing</p>
+              <p class="team-card__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum excepturi corporis qui doloribus perspiciatis ipsa
+                modi accusantium repellat.
+              </p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card__img-container">
+              <img class="team-card__img" src="./imgs/nicolas.webp" alt="" />
+              <div class="overlay">
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card__details">
+              <p class="team-card__name">Nicolas Steiner</p>
+              <p class="team-card__role">financing</p>
+              <p class="team-card__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum excepturi corporis qui doloribus perspiciatis ipsa
+                modi accusantium repellat.
+              </p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card__img-container">
+              <img class="team-card__img" src="./imgs/george.webp" alt="" />
+              <div class="overlay">
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card__details">
+              <p class="team-card__name">George Brook</p>
+              <p class="team-card__role">Founder</p>
+              <p class="team-card__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum excepturi corporis qui doloribus perspiciatis ipsa
+                modi accusantium repellat.
+              </p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-card__img-container">
+              <img class="team-card__img" src="./imgs/emely.webp" alt="" />
+              <div class="overlay">
+                <ul class="socials">
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="socials__item">
+                    <a href="#" class="socials__link">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="team-card__details">
+              <p class="team-card__name">Emely Hopson</p>
+              <p class="team-card__role">Marketing</p>
+              <p class="team-card__desc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Voluptatum excepturi corporis qui doloribus perspiciatis ipsa
+                modi accusantium repellat.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-desc__title">Testimonials</h2>
+        <div class="slider">
+          <img src="./imgs/george.webp" alt="" class="slider__img" />
+          <p class="slider__quote">
+            “Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Consectetur unde reprehenderit aperiam quaerat fugiat repudiandae
+            explicabo animi minima fuga beatae illum eligendi incidunt
+            consequatur. Amet dolores excepturi earum unde iusto.”
+          </p>
+          <p class="slider__name">John Smith</p>
+          <div class="dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BLOG SECTION -->
+
+    <section class="blog">
+      <div class="container">
+        <h2 class="section-desc__title">Blog Posts</h2>
+        <div class="blog__posts">
+          <div class="blog__post">
+            <img src="./imgs/blog1.webp" alt="" class="blog__post__img" />
+            <a href="#" class="blog__post__title"
+              >Make Your Business More Profitable</a
+            >
+            <div class="blog__post__post-info">
+              Ham Brook <span>•</span> 11 Nov, 2021 <span>•</span>
+              <a href="#">News</a>
+            </div>
+            <p class="blog__post__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              eligendi nobis ea maiores sapiente veritatis reprehenderit
+              suscipit quaerat rerum voluptatibus a eius.
+            </p>
+            <a href="#" class="blog__post__read-more">Continue Reading...</a>
+          </div>
+
+          <div class="blog__post">
+            <img src="./imgs/blog2.webp" alt="" class="blog__post__img" />
+            <a href="#" class="blog__post__title"
+              >Make Your Business More Profitable</a
+            >
+            <div class="blog__post__post-info">
+              Ham Brook <span>•</span> 11 Nov, 2021 <span>•</span>
+              <a href="#">News</a>
+            </div>
+            <p class="blog__post__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              eligendi nobis ea maiores sapiente veritatis reprehenderit
+              suscipit quaerat rerum voluptatibus a eius.
+            </p>
+            <a href="#" class="blog__post__read-more">Continue Reading...</a>
+          </div>
+
+          <div class="blog__post">
+            <img src="./imgs/blog3.webp" alt="" class="blog__post__img" />
+            <a href="#" class="blog__post__title"
+              >Make Your Business More Profitable</a
+            >
+            <div class="blog__post__post-info">
+              Ham Brook <span>•</span> 11 Nov, 2021 <span>•</span>
+              <a href="#">News</a>
+            </div>
+            <p class="blog__post__desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+              eligendi nobis ea maiores sapiente veritatis reprehenderit
+              suscipit quaerat rerum voluptatibus a eius.
+            </p>
+            <a href="#" class="blog__post__read-more">Continue Reading...</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+
+    <section class="contact">
+      <h2 class="section-desc__title">Contact Us</h2>
+      <div class="container">
+        <form action="#">
+          <h2 class="form__title">Contact Form</h2>
+          <div class="form__group">
+            <label class="label" for="fname">First Name</label>
+            <input id="fname" type="text" />
+          </div>
+          <div class="form__group">
+            <label class="label" for="lname">Last Name</label>
+            <input id="lname" type="text" />
+          </div>
+          <div class="form__group email">
+            <label class="label" for="email">Email</label>
+            <input id="email" type="email" />
+          </div>
+          <div class="form__group subject">
+            <label class="label" for="subject">Subject</label>
+            <input id="subject" type="subject" />
+          </div>
+          <div class="form__group message">
+            <label class="label" for="message">Message</label>
+            <textarea
+              name=""
+              id="message"
+              cols="30"
+              rows="7"
+              placeholder="Leave your message here..."
+            ></textarea>
+          </div>
+        </form>
+        <button class="btn">Send Message</button>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="socials">
+          <a href="#" class="social">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" class="social">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" class="social">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social">
+            <i class="fab fa-pinterest-p"></i>
+          </a>
+        </div>
+        <p class="copyright">
+          Copyright ©2021 All rights reserved | This template is made with by
+          Colorlib
+        </p>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/gsap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
 </html>
