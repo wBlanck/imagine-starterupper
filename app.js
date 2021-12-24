@@ -16,3 +16,16 @@ hamburger.addEventListener("click", () => {
 closeMobile.addEventListener("click", () => {
   mobileNav.style.left = "100%";
 });
+
+gsap.from(".hero .container .hero__img", {
+  alpha: 0,
+  duration: 1.5,
+  delay: 0.2,
+});
+gsap.from(".hero .container .hero__content > *", {
+  alpha: 0,
+  duration: 1,
+  stagger: 0.3,
+  delay: 0.2,
+  ease: "power1.out",
+});
