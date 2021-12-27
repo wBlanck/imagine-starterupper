@@ -10,7 +10,7 @@ let hamburger = document.querySelector(".hamburger");
 let closeMobile = document.querySelector(".close");
 let mobileNav = document.querySelector(".mobile-nav");
 
-hamburger.addEventListener("click", () => {
+/* hamburger.addEventListener("click", () => {
   mobileNav.style.left = "0";
 });
 closeMobile.addEventListener("click", () => {
@@ -29,3 +29,4 @@ gsap.from(".hero .container .hero__content > *", {
   delay: 0.2,
   ease: "power1.out",
 });
+ */

@@ -82,7 +82,12 @@
 
     <section class="hero">
       <div class="container">
-        <img src="./imgs/investing.svg" alt="" class="hero__img" />
+        <img
+          style="filter: url('#liquify')"
+          src="./imgs/investing.svg"
+          alt=""
+          class="hero__img"
+        />
         <div class="hero__content">
           <h1 class="main-heading">Make Your Business More Profitable</h1>
           <p class="hero__desc">
@@ -93,7 +98,23 @@
         </div>
       </div>
     </section>
-
+    <svg>
+      <filter id="liquify">
+        <feTurbulence
+          baseFrequency="0.015"
+          numOctaves="3"
+          result="wrap"
+          type="fractalNoise"
+        ></feTurbulence>
+        <feDisplacementMap
+          in="SourceGraphic"
+          in2="wrap"
+          scale="0"
+          xChannelSelector="R"
+          yChannelSelector="B"
+        ></feDisplacementMap>
+      </filter>
+    </svg>
     <!-- FEATURES -->
     <section class="features">
       <div class="container">
