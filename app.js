@@ -30,3 +30,4 @@ gsap.from(".hero .container .hero__content > *", {
   ease: "power1.out",
 });
  */
+console.log("Testing");
